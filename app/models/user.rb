@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  attr_reader :remember_token
+  attr_accessor :remember_token
 
   has_many :rates
   has_many :comments

@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       else
         remember user
       end
-      redirect_to user
+      redirect_to root_path
     else
       flash.now[:danger] = t ".danger"
       render :new
@@ -19,6 +19,6 @@ class SessionsController < ApplicationController
 
   def destroy
     log_out if logged_in?
-    redirect_to root_url
+    redirect_to root_path
   end
 end

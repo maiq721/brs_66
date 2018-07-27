@@ -27,8 +27,25 @@ en:
   users:
     new:
       title: "Register"
-      button: "Create account user"
-      confirmation: "Confirmation password"
+      button: "Create account"
     create:
       success: "Create user success."
       danger: "Create user not success"
+    update:
+      update_success: "Profile updated"
+    edit:
+      title: "Udate User"
+      change: "Change"
+      button_text: "Save change"
+    form:
+      confirmation: "Confirmation!"
+      creates: "Create"
+    index:
+      index_admin: "You are in index for admin"
+  application:
+    load_user:
+      not_exist: "This user not not exist"
+    logged_in_user:
+      not_login: "Please log in."
+    verify_admin:
+      should_login: "You should login"
